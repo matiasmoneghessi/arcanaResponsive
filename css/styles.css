@@ -1,0 +1,31 @@
+body{
+font-family: "Source Sans Pro", sans-serif;
+min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 170px;
+    font-size: 28px;
+}
+.header a span{
+font-weight: 300;
+}
+.header a{
+    font-size: 35px;    
+    color: #474747;
+    font-weight: 600;
+    text-decoration: none;
+    font-style: bold;    
+}
+.header a:hover{
+cursor: pointer;
+color: #37c0fb;
+}
+.navbtb{
+display: flex;
+flex-direction: row;
+}
