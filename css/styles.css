@@ -4,28 +4,124 @@ min-height: 100vh;
 }
 
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    height: 170px;
-    font-size: 28px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+height: 170px;
+font-size: 28px;
 }
 .header a span{
 font-weight: 300;
 }
 .header a{
-    font-size: 35px;    
-    color: #474747;
-    font-weight: 600;
-    text-decoration: none;
-    font-style: bold;    
+font-size: 35px;    
+color: #474747;
+font-weight: 600;
+text-decoration: none;
+font-style: bold;    
 }
 .header a:hover{
 cursor: pointer;
 color: #37c0fb;
 }
-.navbtb{
+.navtb{
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
+text-align: center;
+align-self: center;
+flex-wrap: wrap;
+min-width: 100%;
+min-height: 110px;
+background-color: #2e2e2e;
+font-size: 25px;
+}
+.navtb ul li{
+display: inline;
+padding: 30px;
+color: #c0c0c0;
+font-size: 25px;
+font-weight: 300;
+}
+.navtb ul li .home{
+color: #ffffff;
+font-weight: 600;
+text-decoration: none;
+}
+.navtb ul li:hover{
+color: white;
+cursor: pointer;
+font-style: bold;
+}
+.spacebottom{
+height: 18px;
+background-color: #37c0fb;
+}
+.banner{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+align-self: stretch;
+min-height: 650px;
+background-image: url("../images/banner.jpg");
+background-size: cover;
+}
+.imageoverlay{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+min-height: 100px;
+min-width: 100vw;
+background-color: rgba(0, 0, 0, 0.5);
+font-weight: 600;
+font-size: 25px;
+}
+.text{
+display: flex;
+flex-direction: row;
+align-items:center;
+justify-content: center;
+text-align: center;
+color: white;
+letter-spacing: -0.025em;
+}
+.text span{
+color: #c0c0c0;
+font-weight: 300;
+text-decoration: none;
+}
+.html5_up{
+border-bottom: dotted 1px;
+font-weight: 300;
+color: #c0c0c0;
+text-decoration: none;
+}
+.html5_up:hover{
+border-bottom: dotted 0;
+color: #37c0fb;
+cursor: pointer;
+text-decoration: none;
+}
+.learnmore{
+font-size: 21px;
+margin-left: 1em;
+padding: 0.8em 2.2em 0.8em 2.2em;
+display: inline-block;
+border-radius: 5px;
+text-decoration: none;
+text-align: center;
+letter-spacing: -0.025em;
+font-weight: 600;
+transition: color 0.2s;
+background: #1eb8fb;
+color: #ffffff;
+}
+.learnmore:hover{
+background: #37c0fb;
+cursor: pointer;
+transition: color 0.2s;
 }
